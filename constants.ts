@@ -214,10 +214,10 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Lorem ipsum dolor sit",
+    title: "DATA SCIENTIST INTERN",
     size: ItemSize.SMALL,
     subtitle:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt",
+      "Co-engineered RAG LLM Optima using FastAPI and React 18, translating technical research into functional benchmarking features. Collaborated with the founder on technical research and code enhancements, currently transitioning to the development of the production-ready system for upcoming phases. @ AI THINKING LABS (Dec 2025 - Present, Remote)",
     image: "/timeline/reactindia.svg",
     slideImage: "/timeline/Wipro.jpeg",
     shouldDrawLine: true,
@@ -225,17 +225,10 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2024",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Consectetur adipiscing elit (Current)",
+    title: "IOS APP DEVELOPER",
     size: ItemSize.SMALL,
     subtitle:
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis nostrud exercitation",
+      "Developed high-fidelity, responsive iOS interfaces using SwiftUI and UIKit. Translated UI/UX wireframes into production code while strictly adhering to Apple Human Interface Guidelines (HIG), optimizing navigation flows for maximum accessibility and user retention. @ ACE TECHNOSYS (Dec 2025 - Jan 2025, Remote)",
     image: "/timeline/hotstar.svg",
     slideImage: "/timeline/Wipro.jpeg",
     shouldDrawLine: true,
@@ -243,231 +236,11 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2023",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Ullamco laboris nisi",
+    title: "SDE INTERN",
     size: ItemSize.SMALL,
     subtitle:
-      "Ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate velit 😎",
+      "Orchestrated cloud deployments on Microsoft Azure, implementing CI/CD pipelines via Azure DevOps, for automated release management. Engineered an Employee Wellness Prediction System, benchmarking multiple ML models to deploy the optimal Flask solution on Azure Web Apps. Configured enterprise cloud infrastructure for the Adani Group, managing environment setup and service integration for large-scale operations. @ WIPRO (June 2025 - Aug 2025, Gurugram, Haryana)",
     image: "/timeline/flipkart.svg",
-    slideImage: "/timeline/Wipro.jpeg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2022",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.DIVERGE,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Esse cillum dolore (freelance)",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt in culpa 🎯",
-    image: "/timeline/huminos.svg",
-    slideImage: "/timeline/Wipro.jpeg",
-    shouldDrawLine: true,
-    alignment: Branch.RIGHT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Mollit anim id (freelance)",
-    size: ItemSize.SMALL,
-    subtitle: "Est laborum sed ut perspiciatis unde omnis iste natus error 🚀",
-    image: "/timeline/octanner.svg",
-    slideImage: "/timeline/Wipro.jpeg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CONVERGE,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2021",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Sit voluptatem accusantium",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis quasi",
-    image: "/timeline/dltlabs.svg",
-    slideImage: "/timeline/Wipro.jpeg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Architecto beatae vitae",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit 🥳",
-    image: "/timeline/huminos.svg",
-    slideImage: "/timeline/Wipro.jpeg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Aut fugit sed quia 🎓",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt neque porro quisquam",
-    image: "/timeline/akgec.svg",
-    slideImage: "/timeline/Wipro.jpeg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2020",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.DIVERGE,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Dolorem ipsum quia dolor",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt labore",
-    image: "/timeline/si.svg",
-    slideImage: "/timeline/Wipro.jpeg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Ut aliquam quaerat voluptatem",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Maiores alias consequatur aut perferendis doloribus asperiores repellat temporibus quibusdam",
-
-    slideImage: "/timeline/Wipro.jpeg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2019",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.RIGHT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Quis autem vel eum iure",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel illum",
-    slideImage: "/timeline/Wipro.jpeg",
-    shouldDrawLine: true,
-    alignment: Branch.RIGHT,
-  },
-
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Quo dolore fugiat harum",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Quidem rerum facilis est et expedita distinctio nam libero tempore cum soluta nobis",
-    slideImage: "/timeline/Wipro.jpeg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Eligendi optio cumque nihil",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Impedit quo minus id quod maxime placeat facere possimus omnis voluptas assumenda est",
-    slideImage: "/timeline/Wipro.jpeg",
-    shouldDrawLine: true,
-    alignment: Branch.RIGHT,
-  },
-
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Omnis dolor repellendus",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet",
-    slideImage: "/timeline/Wipro.jpeg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2018",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.RIGHT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Ut et voluptates repudiandae",
-    size: ItemSize.SMALL,
-    subtitle: "Sint et molestiae non recusandae itaque earum rerum hic tenetur sapiente delectus",
-    slideImage: "/timeline/Wipro.jpeg",
-    shouldDrawLine: true,
-    alignment: Branch.RIGHT,
-  },
-  {
-    type: NodeTypes.CONVERGE,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Officiis aut rerum necessitatibus",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae itaque earum",
-    image: "/timeline/si.svg",
-    slideImage: "/timeline/Wipro.jpeg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2017",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Rerum hic tenetur sapiente",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Delectus ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus",
-    image: "/timeline/xda.svg",
     slideImage: "/timeline/Wipro.jpeg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
