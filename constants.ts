@@ -170,6 +170,43 @@ export const PROJECTS: IProject[] = [
   },
 ];
 
+export const SKILL_INFO: Record<string, { name: string; role: string }> = {
+  // Languages
+  cpp: { name: "C++", role: "Programming Language" },
+  typescript: { name: "TypeScript", role: "Programming Language" },
+  javascript: { name: "JavaScript", role: "Programming Language" },
+  sql: { name: "SQL", role: "Database Query Language" },
+  java: { name: "Java", role: "Programming Language" },
+  swift: { name: "Swift", role: "iOS Development" },
+  html: { name: "HTML", role: "Markup Language" },
+  css: { name: "CSS", role: "Styling Language" },
+  
+  // Frameworks & Libraries
+  pytorch: { name: "PyTorch", role: "ML Framework" },
+  react: { name: "React.js", role: "UI Library" },
+  nodejs: { name: "Node.js", role: "Runtime Environment" },
+  reactnative: { name: "React Native", role: "Mobile Framework" },
+  streamlit: { name: "Streamlit", role: "Data App Framework" },
+  opencv: { name: "OpenCV", role: "Computer Vision" },
+  tailwind: { name: "Tailwind CSS", role: "CSS Framework" },
+  
+  // Tools & Platforms
+  git: { name: "Git", role: "Version Control" },
+  github: { name: "GitHub", role: "Code Hosting" },
+  firebase: { name: "Firebase", role: "Backend Platform" },
+  gemini: { name: "Gemini API", role: "AI Integration" },
+  figma: { name: "Figma", role: "Design Tool" },
+  postman: { name: "Postman", role: "API Testing" },
+  googlecolab: { name: "Google Colab", role: "Notebook Environment" },
+  androidstudio: { name: "Android Studio", role: "IDE" },
+  
+  // Cloud & DevOps
+  aws: { name: "AWS", role: "Cloud Platform" },
+  macos: { name: "macOS", role: "Operating System" },
+  cicd: { name: "CI/CD", role: "Automation" },
+  devops: { name: "DevOps", role: "Practices" },
+};
+
 export const SKILLS = {
   languages: [
     "cpp",
