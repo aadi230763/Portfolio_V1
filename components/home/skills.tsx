@@ -83,7 +83,7 @@ const SkillsSection = () => {
         <h3 className={SKILL_STYLES.SKILL_TITLE}>{title}</h3>
       </div>
       <div
-        className={`${SKILL_STYLES.SKILL_ICONS} ${
+        className={`${SKILL_STYLES.SKILL_ICONS} ml-12 ${
           willChange ? "will-change-opacity" : ""
         } seq`}
       >
@@ -92,18 +92,18 @@ const SkillsSection = () => {
             key={skill}
             className="relative group"
             style={{
-              marginLeft: index === 0 ? "0" : "-0.75rem",
+              marginLeft: index === 0 ? "0" : "-0.875rem",
               zIndex: skills.length - index,
             }}
             onMouseEnter={() => setHoveredSkill(skill)}
             onMouseLeave={() => setHoveredSkill(null)}
           >
-            <div className="w-12 h-12 md:w-14 md:h-14 rounded-full border-2 border-green-400 p-1 flex items-center justify-center bg-gray-900 hover:scale-125 hover:z-50 transition-all duration-200 cursor-pointer relative">
+            <div className="w-14 h-14 md:w-16 md:h-16 rounded-full p-1 flex items-center justify-center bg-gray-900 hover:scale-125 hover:z-50 transition-all duration-200 cursor-pointer relative">
               <Image
                 src={`/skills/${skill}.svg`}
                 alt={skill}
-                width={40}
-                height={40}
+                width={48}
+                height={48}
                 className="rounded-full"
               />
             </div>

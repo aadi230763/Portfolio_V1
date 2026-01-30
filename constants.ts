@@ -201,8 +201,8 @@ export const SKILL_INFO: Record<string, { name: string; role: string }> = {
   androidstudio: { name: "Android Studio", role: "IDE" },
   
   // Cloud & DevOps
-  aws: { name: "AWS", role: "Cloud Platform" },
-  macos: { name: "macOS", role: "Operating System" },
+  azure: { name: "Azure", role: "Cloud Platform" },
+  apple: { name: "Apple", role: "Operating System" },
   cicd: { name: "CI/CD", role: "Automation" },
   devops: { name: "DevOps", role: "Practices" },
 };
@@ -238,8 +238,8 @@ export const SKILLS = {
     "androidstudio",
   ],
   cloud: [
-    "aws",
-    "macos",
+    "azure",
+    "apple",
     "cicd",
     "devops",
   ],
