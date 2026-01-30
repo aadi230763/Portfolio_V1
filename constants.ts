@@ -171,21 +171,41 @@ export const PROJECTS: IProject[] = [
 ];
 
 export const SKILLS = {
-  frontend: [
+  languages: [
+    "cpp",
+    "typescript",
     "javascript",
-    "react",
-    "redux",
-    "next",
-    "angular",
-    "gsap",
-    "tailwind",
-    "sass",
-    "svg",
+    "sql",
+    "java",
+    "swift",
     "html",
     "css",
   ],
-  userInterface: ["figma", "sketch", "illustrator", "photoshop"],
-  other: ["git", "webpack", "gulp", "lightroom", "aftereffects"],
+  frameworks: [
+    "pytorch",
+    "react",
+    "nodejs",
+    "reactnative",
+    "streamlit",
+    "opencv",
+    "tailwind",
+  ],
+  tools: [
+    "git",
+    "github",
+    "firebase",
+    "gemini",
+    "figma",
+    "postman",
+    "googlecolab",
+    "androidstudio",
+  ],
+  cloud: [
+    "aws",
+    "macos",
+    "cicd",
+    "devops",
+  ],
 };
 
 export enum Branch {

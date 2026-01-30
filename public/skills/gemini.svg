@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="gemini-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8E75B2"/>
+      <stop offset="50%" stop-color="#4285F4"/>
+      <stop offset="100%" stop-color="#00A67E"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#gemini-gradient)" d="M64 8c-30.9 0-56 25.1-56 56s25.1 56 56 56 56-25.1 56-56S94.9 8 64 8zm0 96c-22.1 0-40-17.9-40-40s17.9-40 40-40 40 17.9 40 40-17.9 40-40 40z"/>
+  <circle fill="url(#gemini-gradient)" cx="64" cy="64" r="20"/>
+  <circle fill="url(#gemini-gradient)" cx="64" cy="24" r="8"/>
+  <circle fill="url(#gemini-gradient)" cx="64" cy="104" r="8"/>
+  <circle fill="url(#gemini-gradient)" cx="24" cy="64" r="8"/>
+  <circle fill="url(#gemini-gradient)" cx="104" cy="64" r="8"/>
+</svg>

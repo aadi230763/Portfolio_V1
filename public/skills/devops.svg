@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="devops-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0078D7"/>
+      <stop offset="100%" stop-color="#00BCF2"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#devops-gradient)" d="M64 8C33.1 8 8 33.1 8 64s25.1 56 56 56 56-25.1 56-56S94.9 8 64 8zm0 96c-22.1 0-40-17.9-40-40s17.9-40 40-40 40 17.9 40 40-17.9 40-40 40z"/>
+  <path fill="#fff" d="M64 32c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm0 56c-13.3 0-24-10.7-24-24s10.7-24 24-24 24 10.7 24 24-10.7 24-24 24z"/>
+  <circle fill="url(#devops-gradient)" cx="64" cy="64" r="16"/>
+  <g fill="#fff">
+    <path d="M46 46l-4-4-12 12 12 12 4-4-8-8z"/>
+    <path d="M82 46l4-4 12 12-12 12-4-4 8-8z"/>
+    <path d="M60 84l-4-4 16-32 4 4z"/>
+  </g>
+</svg>

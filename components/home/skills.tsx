@@ -7,7 +7,9 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 const SKILL_STYLES = {
   SECTION:
     "w-full relative select-none mb-24 section-container py-12 flex flex-col justify-center",
-  SKILL_TITLE: "section-title-sm mb-4 seq",
+  SKILL_TITLE: "text-green-400 text-sm font-medium tracking-widest uppercase seq",
+  SKILL_CONTAINER: "flex items-center py-6 border-b border-gray-800",
+  SKILL_ICONS: "flex flex-wrap gap-4 ml-8",
 };
 
 const SkillsSection = () => {
@@ -41,13 +43,9 @@ const SkillsSection = () => {
   }, [targetSection]);
 
   const renderSectionTitle = (): React.ReactNode => (
-    <div className="flex flex-col">
-      <p className="section-title-sm seq">SKILLS</p>
-      <h1 className="section-heading seq mt-2">My Skills</h1>
-      <h2 className="text-2xl md:max-w-2xl w-full seq mt-2">
-        I like to take responsibility to craft aesthetic user experience using
-        modern frontend architecture.{" "}
-      </h2>
+    <div className="flex flex-col mb-8">
+      <h1 className="text-4xl md:text-5xl font-medium seq">Skills</h1>
+      <div className="w-12 h-1 bg-green-400 mt-4 seq"></div>
     </div>
   );
 
@@ -74,33 +72,39 @@ const SkillsSection = () => {
     </>
   );
 
-  const renderSkillColumn = (
+  const renderSkillRow = (
     title: string,
     skills: string[]
   ): React.ReactNode => (
-    <>
-      <h3 className={SKILL_STYLES.SKILL_TITLE}>{title}</h3>
+    <div className={SKILL_STYLES.SKILL_CONTAINER}>
+      <div className="w-48 flex-shrink-0">
+        <h3 className={SKILL_STYLES.SKILL_TITLE}>{title}</h3>
+      </div>
       <div
-        className={`flex flex-wrap seq ${
+        className={`${SKILL_STYLES.SKILL_ICONS} ${
           willChange ? "will-change-opacity" : ""
-        }`}
+        } seq`}
       >
         {skills.map((skill) => (
-          <Image
+          <div
             key={skill}
-            src={`/skills/${skill}.svg`}
-            alt={skill}
-            width={76}
-            height={76}
-            className="skill"
-          />
+            className="w-12 h-12 md:w-14 md:h-14 rounded-full border-2 border-green-400 p-1 flex items-center justify-center bg-black hover:scale-110 transition-transform duration-200"
+          >
+            <Image
+              src={`/skills/${skill}.svg`}
+              alt={skill}
+              width={40}
+              height={40}
+              className="rounded-full"
+            />
+          </div>
         ))}
       </div>
-    </>
+    </div>
   );
 
   return (
-    <section className="relative">
+    <section className="relative bg-black">
       {renderBackgroundPattern()}
       <div
         className={SKILL_STYLES.SECTION}
@@ -109,17 +113,11 @@ const SkillsSection = () => {
       >
         <div className="flex flex-col skills-wrapper">
           {renderSectionTitle()}
-          <div className="mt-10">
-            {renderSkillColumn("FRONTEND DEVELOPMENT", SKILLS.frontend)}
-          </div>
-          <div className="flex flex-wrap mt-10">
-            <div className="mr-6 mb-6">
-              {renderSkillColumn(
-                "User Interface, User Experience Design",
-                SKILLS.userInterface
-              )}
-            </div>
-            <div>{renderSkillColumn("Other Skills", SKILLS.other)}</div>
+          <div className="flex flex-col">
+            {renderSkillRow("LANGUAGES", SKILLS.languages)}
+            {renderSkillRow("FRAMEWORKS & LIBRARIES", SKILLS.frameworks)}
+            {renderSkillRow("TOOLS & PLATFORMS", SKILLS.tools)}
+            {renderSkillRow("CLOUD & DEVOPS", SKILLS.cloud)}
           </div>
         </div>
       </div>

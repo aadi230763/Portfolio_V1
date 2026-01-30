@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <path fill="#FFA000" d="M27.4 115.5l47.6 27.5 47.6-27.5L80 0H48l-20.6 115.5z"/>
+  <path fill="#F57C00" d="M27.4 115.5L75 143l47.6-27.5L75 0z"/>
+  <path fill="#FFCA28" d="M21 75L75 143l-54-68z"/>
+  <path fill="#F57C00" d="M21 75l13 10 41 58z"/>
+  <path fill="#FFA000" d="M75 143l47.6-27.5-8.6-11.5-39 39z"/>
+  <g>
+    <path fill="#FFCA28" d="M96 36l-21-36H48l27 36z"/>
+    <path fill="#FFA000" d="M21 75l27-39H27L21 75z"/>
+  </g>
+</svg>
