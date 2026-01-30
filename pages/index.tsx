@@ -16,6 +16,7 @@ import SkillsSection from "@/components/home/skills";
 import CollaborationSection from "@/components/home/collaboration";
 import Footer from "@/components/common/footer";
 import TimelineSection from "@/components/home/timeline";
+import CertificationsSection from "@/components/home/certifications";
 import Scripts from "@/components/common/scripts";
 import AboutSection from "@/components/home/about";
 
@@ -79,6 +80,7 @@ export default function Home() {
           <QuoteSection />
           <SkillsSection />
           <TimelineSection isDesktop={isDesktop} />
+          <CertificationsSection isDesktop={isDesktop} />
           <CollaborationSection />
           <Footer />
         </main>
