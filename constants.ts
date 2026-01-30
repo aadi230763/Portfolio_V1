@@ -38,8 +38,8 @@ export const TYPED_STRINGS = [
 export const EMAIL = "ayush.singh.xda@gmail.com";
 
 export const SOCIAL_LINKS = {
-  linkedin: "#",
-  github: "#",
+  linkedin: "https://www.linkedin.com/in/adityachawla29/",
+  github: "https://github.com/aadi230763",
   medium: "#",
   instagram: "#",
   facebook: "#",
